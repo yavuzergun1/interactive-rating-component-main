@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: 'Overpass', sans-serif;
+}
+
+p{
+    font-size: 16px;
+    color: hsl(217, 12%, 63%);
+    line-height: 20px; 
+    word-spacing: 2px; 
+    text-align: justify;
+
+}
+h1{
+    color: hsl(0, 0%, 100%);
+
+}
+
+body{
+    background-color: hsl(0, 0%, 2%);
+   
+}
+
+.container-main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-rating{
+    
+    width: 350px;
+    height: 280px;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.nums{
+    width: 100%;
+    /* background-color: rgb(235, 227, 227); */
+    display: flex;
+    justify-content: space-around;
+}
+
+.num{
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    color: hsl(217, 67%, 86%);
+    background-color:hsl(214, 4%, 33%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding-top: 5px;
+}
+
+.num a{
+    text-decoration: none;
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    font-weight: 600;
+    pointer-events: none;
+}
+
+.num:hover{
+    background-color: hsl(216, 12%, 54%);
+    cursor: pointer;
+}
+
+.num:focus{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.onayla{
+    color: hsl(0, 0%, 100%) ;
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    align-self: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    padding-top: 5px;
+
+}
+
+.onayla:hover{
+  cursor: pointer;
+}
+
+.onayla:focus{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%) ;
+}
+
+.container-thankU{
+    width: 350px;
+    height: 380px;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding: 5px 15px;
+    
+}
+
+.container-thankU p{
+    text-align: center;
+}
+
+.selected{
+    background-color:hsl(213, 19%, 18%);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.selected p{
+    color:hsl(25, 97%, 53%) ;
+    font-weight: 600;
+}
+
+.attribution{
+    color: rgb(187, 207, 224);
+    display: flex;
+    justify-content: center;
+}
+
+.attribution a{
+    color: rgb(133, 226, 226);
+}
