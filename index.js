@@ -37,7 +37,7 @@ function thankU(e){
   } else{
   const warn= document.createElement('div');
   warn.className='container-warn';
-  warn.innerHTML= `<img src="images/circle-exclamation-solid.svg" alt="" <i class="fa-solid fa-circle-exclamation"></i>>
+  warn.innerHTML= `<img src="images/circle-exclamation-solid.svg" alt="" <i class="fa-solid fa-circle-exclamation"></i>
   
     <h1>Please select any rating!</h1>
     
